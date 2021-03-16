@@ -1,0 +1,26 @@
+*{
+    background-color:#ccc;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+h1{
+    background-color:salmon;
+    color: blue;
+    font-size: 20px;
+}
+
+input[type="text"], input[type ="email"]{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 30px;
+
+}
+
+input[type ="submit"]{
+    background-color:orangered;
+    color: white;
+    width: 120px;
+    height: 30px;
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;/*nao modifica o tamanho dos elementos ao modificar os paddings*/
+    font-size: 100%;/*define a fonte com 100% do tamanho*/
+}
+#properties {
+    background-color: #4f79b1;
+    color: white;
+    text-shadow: 2px 2px #000000;/*sombra x, sombra y, desfoque e cor*/
+    font-size: 3em;
+}
+
+#margin{
+    background-color: #fa8072;
+    margin: 5px;
+    text-transform: capitalize;/*primeira letra em maiusculo*/
+} /*margem em relacao a pagina*/
+
+#padding{
+    background-color: #5f9ea0;
+    padding: 10px 20px 30px 40px;
+    text-transform: lowercase;/*minusculo*/
+    line-height: 30px;/*tamanho de cada linha*/
+} /*padding completo na ordem top, right, bottom, left*/
+
+#text-align{
+    background-color: #eee8aa;
+    text-align: justify;
+    text-transform: uppercase; /*Maiusculo*/ 
+    text-indent: 20px; /*define espacamento na primeira linha*/
+    font-family: arial, sans-serif;
+} /*podendo ser center, right, left*/
+
+#fonts{
+    color: rgb(75, 114, 245);
+    background-color: #ffc60a;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Goldman', cursive;
+    font-size: 1.2;
+}
+
+#bloco{
+    margin-top: 10px;
+    background-color: #b4aaee;
+    border: 1px solid #808080;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px 60px;
+} 
+
+p{
+    font-weight: bold;
+    font-size: 1em;
+
+}

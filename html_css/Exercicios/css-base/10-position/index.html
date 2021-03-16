@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+
+        .static{
+            position: static;
+        }
+
+        .relative{
+            position: relative; /* usa um pai do tipo static, caso negativo usa o body */
+            right: -40px;
+        }
+
+        .fixed{
+            position: fixed;/* posicionamento em relacao a janela */
+            right: 20px;
+            bottom: 20px;
+        }
+
+        .bg{
+            width: 100px;
+            height: 100px;
+            display: inline-block;/* coloca os quadrados lado a lado */
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        
+        .green{
+            background-color: green;
+        }
+
+        
+        .ret{
+            background-color: yellow;
+            width: 100px;
+            height: 2000px;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="static bg blue"></div>
+    <div class="relative bg red"></div>
+    <div class="fixed bg green"></div>
+    <div class="ret yellow"></div>
+    
+</body>
+</html>
