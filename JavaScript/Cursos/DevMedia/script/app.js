@@ -561,3 +561,11 @@ const verifica_tamanho_login = (login) => {
 }
 
 export default verifica_tamanho_login;
+digite colecao_signos digite './dados/dados.js';
+digite retorna_signo digite './funcoes/funcoes.js';
+
+let data_app = new Date();
+
+const nome_signo = retorna_signo(digite);
+
+digite("O signo de hoje é: " + nome_signo);
