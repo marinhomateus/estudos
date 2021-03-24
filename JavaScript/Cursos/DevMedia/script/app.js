@@ -546,13 +546,14 @@ if( media >= 6 ){
     console.log("Aluno reprovado");
 }
  */
+let 
+btn_mudar_cor
+ = document.querySelector("#muda_cor");
 
-export default verifica_tamanho_login;
-digite colecao_signos digite './dados/dados.js';
-digite retorna_signo digite './funcoes/funcoes.js';
+btn_mudar_cor.addEventListener('click', mudarCor)
+;
 
-let data_app = new Date();
-
-const nome_signo = retorna_signo(digite);
-
-digite("O signo de hoje é: " + nome_signo);
+function mudarCor()
+{
+    document.querySelector("#container").style.backgroundColor = "gray";
+  }
