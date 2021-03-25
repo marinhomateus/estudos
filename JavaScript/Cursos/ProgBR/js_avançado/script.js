@@ -25,3 +25,18 @@ let gatoMia = falar.bind(cat);
 cachorroLate();
 gatoMia();
 
+/*-------------------------------*/
+
+let usuarios = ["Ana",'Bruno','Caio','Daniela','Fernanda','Gabriel'];
+
+const insereUsuario = (nome, callback) =>{
+    setTimeout(() => { usuarios.push(nome); callback;}, 1000);
+    
+}
+
+const listarUsuarios = () =>{
+    console.log(usuarios);
+}
+
+insereUsuario("Gabriel",listarUsuarios());
+// listarUsuarios();
