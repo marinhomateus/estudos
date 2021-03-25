@@ -546,6 +546,7 @@ if( media >= 6 ){
     console.log("Aluno reprovado");
 }
  */
+/* 
 let 
 btn_mudar_cor
  = document.querySelector("#muda_cor");
@@ -557,3 +558,6 @@ function mudarCor()
 {
     document.querySelector("#container").style.backgroundColor = "gray";
   }
+   */
+
+  
