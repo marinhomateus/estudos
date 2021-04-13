@@ -40,3 +40,25 @@ const listarUsuarios = () =>{
 
 insereUsuario("Gabriel",listarUsuarios());
 // listarUsuarios();
+
+/*-------------------------------*/
+// FILTER
+
+function novoAluno(nome, idade){
+    return { nome, idade }
+}
+
+let alunos = [
+    novoAluno("Mateus", 21),
+    novoAluno("Maria", 32),
+    novoAluno("Marcelo", 40),
+    novoAluno("Mariana", 19)
+]
+
+function menosQue20 (aluno){
+    return aluno.idade < 20
+}
+
+//let alunosComMenosde20 = alunos.filter(menosQue20)
+
+console.log(alunos.filter(menosQue20));
