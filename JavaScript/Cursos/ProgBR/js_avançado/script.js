@@ -90,11 +90,21 @@ console.log(turmaA, turmaB, turmaC);
 
 
 let aluno1 = {nome: "Mateus", idade: 21};
+let contato = {telefone: 111111111, endereco: "Rua Alfa"}
 
 aluno2 = Object.assign({}, aluno1)
 aluno2.idade = 22;
 
-aluno3 = {...aluno1}
+aluno3 = {...aluno1, cidade: "São Paulo", ...contato} //cópia spread operator
 aluno3.nome = "Amanda"
 
 console.log(aluno1,aluno2,aluno3);
+
+/*-------------------------------*/
+// REDUCE
+
+const idadeTurma = (total, aluno) =>{
+    return total + aluno.idade;
+}
+
+console.log(alunos.reduce(idadeTurma, 0))//funçao e valor inicial;
