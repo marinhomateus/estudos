@@ -108,3 +108,21 @@ const idadeTurma = (total, aluno) =>{
 }
 
 console.log(alunos.reduce(idadeTurma, 0))//funçao e valor inicial;
+
+
+/*-------------------------------*/
+// try catch
+let nome = ""
+
+try {
+    if (nome == "")
+        throw "Nome Vazio";
+
+    console.log(nome);
+
+} catch (err) {
+    
+    console.log("Houve um erro", err)
+}
+
+console.log("Tenha um bom dia!")
